@@ -65,7 +65,7 @@
  */
 
 // ##### Simple example 1 #####
-// A simple example to get my latest tweet and write to a HTML element with
+// A simple example to get my latest tweet and write to an HTML element with
 // id "example1". Also automatically hyperlinks URLS and user mentions and
 // hashtags.
 var config1 = {
@@ -78,7 +78,7 @@ twitterFetcher.fetch(config1);
 
 
 // ##### Simple example 2 #####
-// A simple example to get my latest 5 of my favourite tweets and write to a
+// A simple example to get my latest 5 of my favourite tweets and write to an
 // HTML element with id "talk". Also automatically hyperlinks URLS and user
 // mentions and hashtags but does not display time of post. We also make the
 // request to Twitter specifiying we would like results where possible in
@@ -109,7 +109,7 @@ twitterFetcher.fetch(config3);
 
 
 // ##### Advanced example #####
-// An advance example to get latest 5 posts using hashtag #API and write to a
+// An advance example to get latest 5 posts using hashtag #API and write to an
 // HTML element with id "tweets2" without showing user details and using a
 // custom format to display the date/time of the post, and does not show
 // retweets.
@@ -171,7 +171,7 @@ twitterFetcher.fetch(config5);
 
 
 // ##### Advanced example #####
-// An advance example to get latest 3 posts using hashtag #API and write to a
+// An advance example to get latest 3 posts using hashtag #API and write to an
 // HTML element with id "example6" without showing user details and using an
 // alternative custom format with moment.js to display the age of the post,
 // and does not show retweets.
